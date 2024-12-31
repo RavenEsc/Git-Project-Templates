@@ -8,7 +8,9 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1" : {}
 	},
 
 	// Configure tool-specific properties.
@@ -41,7 +43,9 @@
 				"amazonwebservices.amazon-q-vscode",
 				"4ops.terraform",
 				"alefragnani.project-manager",
-				"johnpapa.vscode-peacock"
+				"johnpapa.vscode-peacock",
+				"amazonwebservices.aws-toolkit-vscode",
+				"mark-tucker.aws-cli-configure"
 
 				// Add other VS Code extensions here.
 			]
